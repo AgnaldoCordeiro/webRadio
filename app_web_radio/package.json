@@ -1,5 +1,5 @@
 {
-  "name": "app_web_radio",
+  "name": "novo-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "11.1.2",
+    "-": "^0.0.1",
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/typography": "^0.4.1",
+    "bootstrap": "^5.1.0",
+    "D": "^1.0.0",
+    "next": "11.1.0",
     "react": "^17.0.2",
+    "react-audio-player": "^0.17.0",
+    "react-bootstrap": "^2.0.0-beta.5",
     "react-dom": "^17.0.2",
-    "reactstrap": "^8.10.0"
+    "react-hook-form": "^7.14.2",
+    "reactstrap": "^8.10.0",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
-    "@types/react": "17.0.20",
+    "@types/react": "^17.0.19",
+    "autoprefixer": "^10.3.1",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
-    "typescript": "4.4.2"
+    "eslint-config-next": "11.1.0",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9",
+    "typescript": "^4.3.5"
   }
 }

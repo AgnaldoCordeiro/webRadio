@@ -1,19 +1,42 @@
 import { Container } from "reactstrap";
+import Formulario from '../components/Formulario'
 
 
 export default function Contact(){
     return(
-        <Container className="container">
-        <div className={` from-gray-400 m-3 justify-content
-        py-10 px-10
-        m-10`}>
-            <h1 className={`text-center font-bold text-5xl`}>Contact</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eum inventore beatae vero dolores dolore sed ex quae nisi velit cumque doloribus fuga deserunt tempora nam doloremque in. Quas, voluptate.
-            </p>
+        <div className={`bg-blue-400 text-white`}>
+
+        <Container className="containe">
+        <div className={`justify-content
+        py-5 px-0
+        m-0`}>
+            <div className="row">
+          <div className="col-12">
+            <h5>Radio Web MCR</h5>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2"><p> Av. .....</p></li>
+              <li className="nav-item mb-2"><p> bairro</p></li>
+              <li className="nav-item mb-2"><p> cep</p></li><li className="nav-item mb-2"><p></p></li>
+
+              <li className="nav-item mb-2"><p> Email</p></li>
+              <li className="nav-item mb-2"><p> Telefone</p></li>
+
+            </ul>
+            <div className="d-flex justify-content-center py-4 my-4 border-top">
+          <p className="">Entre em contato conosco </p> 
+
+          
+          
+        </div>
+        <Formulario/>  
+          </div>      
+
+          
+        </div>
 
         </div>
 
         </Container>
+        </div>
     )
 }

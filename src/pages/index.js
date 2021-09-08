@@ -4,12 +4,12 @@ import styles from '../styles/Home.module.css'
 import Headers from '../components/Headers'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/Footer'
-import About from '../components/About'
 import Contact from '..//components/Contact'
-import Jumbotron from '../components/Jumbo'
+import Patrocinadores from '../components/Patrocinadores'
 import Quemsomos from '../components/Quemsomos'
 import Comosomos from '../components/Comosomos'
 import Servicos from '../components/Servicos'
+import HomeComponente from '../components/HomeComponente'
 
 export default function Home() {
   return (
@@ -21,11 +21,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Headers/>
+      <HomeComponente/>
       <Quemsomos/>
       <Comosomos/>
       <Servicos/>
-      <Jumbotron/>
-      <About/>
+      <Patrocinadores/>
       <Contact/>
     
       

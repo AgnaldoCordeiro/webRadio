@@ -4,9 +4,9 @@ import { Jumbotron, Button } from 'reactstrap';
 const Jumbo = (props) => {
   return (
     <div>
-      <Jumbotron className={`
-      py-10 px-10
-      m-10
+      <Jumbotron className={`from-gray-400 m-3 justify-content
+        py-10 px-10
+        m-10
       `}>
         <h1 className="display-3">Radio MCR Web</h1>
         <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde consectetur, explicabo facilis, voluptatem voluptate itaque aliquid, nostrum ipsam dolorem nobis tenetur dolores. Repellendus omnis eaque, corporis ducimus possimus itaque.</p>

@@ -1,9 +1,9 @@
-import Image from 'next/image' 
+import Image from 'next/image'
 
 export default function Formulario() {
     return (
 
-        <form className="row g-2">
+        <form className="row g-4">
             <div className="col-6">
                 <label htmlFor="inputNome" className="form-label">Nome</label>
                 <input type="text" className="form-control" id="inputNome" />
@@ -12,9 +12,13 @@ export default function Formulario() {
                 <label htmlFor="inputTelefone" className="form-label">Telefone</label>
                 <input type="tel" className="form-control" id="inputTelefone" />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-12">
                 <label htmlFor="inputEmail4" className="form-label">Email</label>
                 <input type="email" className="form-control" id="inputEmail4" />
+            </div>
+            <div class="mb-3">
+                <label htmlFor="mensagemFormControlTextarea1" className="form-label">Mensagem</label>
+                <textarea className="form-control" id="mensagemFormControlTextarea1" rows="3"></textarea>
             </div>
 
             <div className="col-12">

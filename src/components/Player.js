@@ -7,7 +7,7 @@ export default function Player() {
 <ReactAudioPlayer
   src="https://player-ssl.kshost.com.br:12462/live"
   type="audio/mpeg"
-  autoPlay=""
+  autoPlay="true"
   controls
   
 />

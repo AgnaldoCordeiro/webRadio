@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Quemsomos from './Quemsomos'
+import Player from './Player'
 
 const Headers = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,7 @@ const Headers = (props) => {
           <li><a href="#servicos" className="nav-link px-2 text-white">Serviços</a></li>
           <li><a href="#contact" className="nav-link px-2 text-white">Contato</a></li>
         </ul>
-
+        <Player/>
         
       </div>
     </div>

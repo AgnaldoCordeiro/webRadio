@@ -12,7 +12,7 @@ const items = [
   {
     src: 'https://i.pinimg.com/originals/b2/52/f2/b252f2712a8d34d6698af5aadfd90afc.jpg',
     altText: 'Slide 1',
-    caption: 'Slide 1'
+    caption: 'Slide 1',    
   },
   {
     src: 'https://i.pinimg.com/originals/b2/52/f2/b252f2712a8d34d6698af5aadfd90afc.jpg',
@@ -34,12 +34,13 @@ const Servicos = (props) => {
     if (animating) return;
     const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
     setActiveIndex(nextIndex);
+    
   }
 
   const previous = () => {
     if (animating) return;
     const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
+    setActiveIndex(nextIndex);    
   }
 
   const goToIndex = (newIndex) => {
@@ -49,28 +50,32 @@ const Servicos = (props) => {
 
   const slides = items.map((item) => {
     return (
+      
       <CarouselItem
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
+        className={`w-2`}       
       >
-        <img src={item.src} alt={item.altText} />
+        <img src={item.src} alt={item.altText} className={`w-90`}
+        />
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
+      
     );
   });
 
   return (
-    <div id="servicos">
+    <div id="servicos" className="d-flex justify-content-center py-lg-5 w-70" >
 
     <Carousel
       activeIndex={activeIndex}
       next={next}
-      previous={previous}
+      previous={previous}      
     >
-      <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex}/>
+      <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
-      <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+      <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous}  />
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
     </div>

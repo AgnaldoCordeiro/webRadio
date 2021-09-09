@@ -22,8 +22,7 @@ export default function Comosomos() {
                     py-4
                     px-6                                     
                     ">
-                        <img className={`                        
-                        `}src="http://www.webradiopraise.com.br/admin/data/img/gallery/Bg/fundo-gradiente-de-tecnologia-big-data_76243-32.jpg" alt="fundo2web"/>
+                        <img className="img-thumbnail" src="http://www.webradiopraise.com.br/admin/data/img/gallery/Bg/fundo-gradiente-de-tecnologia-big-data_76243-32.jpg" alt="fundo2web"/>
                     </div>
                 </div>
             </div>

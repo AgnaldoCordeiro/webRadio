@@ -6,7 +6,7 @@ export default function Contact(){
     return(
         <div className={`bg-blue-400 text-white`}>
 
-        <Container className="containe" id="contact">
+        <Container className="containe">
         <div className={`justify-content
         py-5 px-0
         m-0`}>
@@ -22,8 +22,8 @@ export default function Contact(){
               <li className="nav-item mb-2"><p> Telefone</p></li>
 
             </ul>
-            <div className="d-flex justify-content-center py-4 my-4 border-top">
-          <p className="">Entre em contato conosco </p> 
+            <div className="d-flex justify-content-center py-4 my-4 border-top"  id="contact">
+          <h4 className="text-start">Entre em contato conosco </h4> 
 
           
           

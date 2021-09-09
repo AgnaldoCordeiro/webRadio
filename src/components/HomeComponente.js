@@ -5,9 +5,8 @@ export default function HomeComponente(){
         <div className="parallax-container">
 
           <div className="parallax">
-              <img src="https://thumbs.dreamstime.com/b/radio-signal-icon-web-set-technological-background-142413558.jpg"
-              alt="Tecnologia para sua imobiliária" 
-              className={`transform: translate3d(-50%, 86.52px, 0px); opacity: 1;`}
+              <img className="img-fluid img-thumbnail" src="https://thumbs.dreamstime.com/b/radio-signal-icon-web-set-technological-background-142413558.jpg"
+              alt="Tecnologia para sua imobiliária"               
              />
               </div>
 

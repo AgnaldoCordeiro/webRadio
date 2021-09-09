@@ -19,7 +19,8 @@ const Headers = (props) => {
           <li><a href="../pages/index" className="nav-link px-2 text-secondary">Radio MCR Web</a></li>
           <li><a href="#quemsomos" className="nav-link px-2 text-white">Quem Somos</a></li>
           <li><a href="#comosomos" className="nav-link px-2 text-white">Como Somos</a></li>
-          <li><a href="#servicos" className="nav-link px-2 text-white">Serviços</a></li>
+          <li><a href="#equipe" className="nav-link px-2 text-white">Equipe</a></li>
+          <li><a href="#patrocinadores" className="nav-link px-2 text-white">Patrocinadores</a></li>
           <li><a href="#contact" className="nav-link px-2 text-white">Contato</a></li>
         </ul>
         <Player/>

@@ -8,7 +8,7 @@ import Contact from '..//components/Contact'
 import Patrocinadores from '../components/Patrocinadores'
 import Quemsomos from '../components/Quemsomos'
 import Comosomos from '../components/Comosomos'
-import Servicos from '../components/Servicos'
+import Equipe from '../components/Equipe'
 import HomeComponente from '../components/HomeComponente'
 
 export default function Home() {
@@ -24,16 +24,11 @@ export default function Home() {
       <HomeComponente/>
       <Quemsomos id="quemsomos"/>
       <Comosomos id="comosomos"/>
-      <Servicos id="servicos"/>
-      <Patrocinadores/>
-      <Contact id="contact"/>
-    
+      <Equipe id="equipe"/>
+      <Patrocinadores id="patrocinadores"/>
+      <Contact id="contact"/>   
       
-      
-
-      <main className={styles.main}>  
-
-      </main>  
+       
       <Footer/>
    
     </div>

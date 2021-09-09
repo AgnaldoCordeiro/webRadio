@@ -4,7 +4,7 @@ import Formulario from '../components/Formulario'
 
 export default function Contact(){
     return(
-        <div className={`bg-blue-400 text-white`}>
+        <div className={`bg-blue-400 text-white mt-5`}>
 
         <Container className="containe">
         <div className={`justify-content

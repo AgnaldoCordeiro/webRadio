@@ -26,7 +26,7 @@ const items = [
   }
 ];
 
-const Servicos = (props) => {
+const Equipe = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -55,9 +55,11 @@ const Servicos = (props) => {
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
-        className={`w-2`}       
+        tag="div"
+        className="custom-tag"
+             
       >
-        <img src={item.src} alt={item.altText} className={`w-90`}
+        <img src={item.src} alt={item.altText}
         />
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
@@ -65,21 +67,36 @@ const Servicos = (props) => {
     );
   });
 
+  
   return (
-    <div id="servicos" className="d-flex justify-content-center py-lg-5 w-70" >
+    <div id="equipe"className="container-fluid bg-blue-50 mt-10">
+      <h4 className="py-10 container text-center"> Nossa Equipe </h4>
+      <div className="container w-50 pb-40">
 
-    <Carousel
-      activeIndex={activeIndex}
-      next={next}
-      previous={previous}      
-    >
-      <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
-      {slides}
-      <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous}  />
-      <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-    </Carousel>
+      <style>
+        {
+          `.custom-tag {
+              max-width: 100%;
+              height: 350px;
+              background: black;
+              margin-top: 30px;
+              
+            }`
+        }
+      </style>
+      <Carousel
+        activeIndex={activeIndex}
+        next={next}
+        previous={previous}
+      >
+        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+        {slides}
+        <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+        <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+      </Carousel>
     </div>
+      </div>
   );
 }
 
-export default Servicos;
+export default Equipe;

@@ -4,12 +4,13 @@ export default function Quemsomos() {
     return (
 
 
-        <div className="container-fluid" id="quemsomos">
+        <div className="container-fluid mt-10 mb-20" id="quemsomos">
             <div className="container">
                 <div className="row">
                     <div className="col s12 m12 l5 center
                     py-5
-                    px-2                                     
+                    px-2
+                                                       
                     ">
                         <img className="img-thumbnail" src="http://www.webradiopraise.com.br/admin/data/img/gallery/Bg/fundo-gradiente-de-tecnologia-big-data_76243-32.jpg" alt="fundoweb"/>
                     </div>

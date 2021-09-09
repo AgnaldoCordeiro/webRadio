@@ -7,7 +7,7 @@ export default function Comosomos() {
         text-white
         
         `}>
-            <div className="container">
+            <div id="comosomos" className="container">
                 <div className="row">
                     <div className="col s12 m12 l7
                     py-4

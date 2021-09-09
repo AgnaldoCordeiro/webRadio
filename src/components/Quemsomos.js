@@ -4,7 +4,7 @@ export default function Quemsomos() {
     return (
 
 
-        <div className="item" id="quem_somos">
+        <div className="item" id="quemsomos">
             <div className="container">
                 <div className="row">
                     <div className="col s12 m12 l5 center

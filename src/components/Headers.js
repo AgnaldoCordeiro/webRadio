@@ -1,19 +1,5 @@
 import React, { useState } from 'react';
-import Link from 'next/link'
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
-} from 'reactstrap';
+import Quemsomos from './Quemsomos'
 
 const Headers = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,10 +17,10 @@ const Headers = (props) => {
 
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="../pages/index" className="nav-link px-2 text-secondary">Radio MCR Web</a></li>
-          <li><a href="/Quemsomos" className="nav-link px-2 text-white">Quem Somos</a></li>
-          <li><a href="/Comosomos" className="nav-link px-2 text-white">Como Somos</a></li>
-          <li><a href="/Servicos" className="nav-link px-2 text-white">Serviços</a></li>
-          <li><a href="/Contato" className="nav-link px-2 text-white">Contato</a></li>
+          <li><a href="#quemsomos" className="nav-link px-2 text-white">Quem Somos</a></li>
+          <li><a href="#comosomos" className="nav-link px-2 text-white">Como Somos</a></li>
+          <li><a href="#servicos" className="nav-link px-2 text-white">Serviços</a></li>
+          <li><a href="#contact" className="nav-link px-2 text-white">Contato</a></li>
         </ul>
 
         

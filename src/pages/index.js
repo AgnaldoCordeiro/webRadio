@@ -22,11 +22,11 @@ export default function Home() {
       </Head>
       <Headers/>
       <HomeComponente/>
-      <Quemsomos/>
-      <Comosomos/>
-      <Servicos/>
+      <Quemsomos id="quemsomos"/>
+      <Comosomos id="comosomos"/>
+      <Servicos id="servicos"/>
       <Patrocinadores/>
-      <Contact/>
+      <Contact id="contact"/>
     
       
       

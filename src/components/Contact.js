@@ -6,7 +6,7 @@ export default function Contact(){
     return(
         <div className={`bg-blue-400 text-white`}>
 
-        <Container className="containe">
+        <Container className="containe" id="contact">
         <div className={`justify-content
         py-5 px-0
         m-0`}>

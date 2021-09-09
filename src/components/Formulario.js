@@ -16,7 +16,7 @@ export default function Formulario() {
                 <label htmlFor="inputEmail4" className="form-label">Email</label>
                 <input type="email" className="form-control" id="inputEmail4" />
             </div>
-            <div class="mb-3">
+            <div className="mb-3">
                 <label htmlFor="mensagemFormControlTextarea1" className="form-label">Mensagem</label>
                 <textarea className="form-control" id="mensagemFormControlTextarea1" rows="3"></textarea>
             </div>

@@ -1,10 +1,8 @@
-
+import Image from 'next/image' 
 
 export default function Comosomos() {
     return (
-
-
-        <div className="item" id="quem_somos" className={`
+        <div className={`
         bg-blue-300
         text-white
         
@@ -12,11 +10,8 @@ export default function Comosomos() {
             <div className="container">
                 <div className="row">
                     <div className="col s12 m12 l7
-                    
                     py-4
-                    px-9 
-                    
-                    
+                    px-9                    
                     ">
                         <h4>Como somos</h4>
                         <p><i>lorem ipsum dolor sit amet, consectetur adip</i></p>
@@ -27,9 +22,8 @@ export default function Comosomos() {
                     py-4
                     px-6                                     
                     ">
-                        <img className={`
-                                                   
-                        `}src="http://www.webradiopraise.com.br/admin/data/img/gallery/Bg/fundo-gradiente-de-tecnologia-big-data_76243-32.jpg" alt="Mold Systems" className="max-height: 250px"/>
+                        <img className={`                        
+                        `}src="http://www.webradiopraise.com.br/admin/data/img/gallery/Bg/fundo-gradiente-de-tecnologia-big-data_76243-32.jpg" alt="fundo2web"/>
                     </div>
                 </div>
             </div>

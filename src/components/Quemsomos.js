@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 
 export default function Quemsomos() {
     return (
@@ -13,7 +13,7 @@ export default function Quemsomos() {
                     ">
                         <img className={`
                                                    
-                        `}src="http://www.webradiopraise.com.br/admin/data/img/gallery/Bg/fundo-gradiente-de-tecnologia-big-data_76243-32.jpg" alt="Mold Systems" className="max-height: 250px"/>
+                        `} src="http://www.webradiopraise.com.br/admin/data/img/gallery/Bg/fundo-gradiente-de-tecnologia-big-data_76243-32.jpg" alt="fundoweb"/>
                     </div>
                     <div className="col s12 m12 l7
                     
@@ -24,6 +24,7 @@ export default function Quemsomos() {
                         <h4>Quem somos</h4>
                         <p><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem aperiam obcaecati vel..</i></p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem aperiam obcaecati vel..</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem aperiam obcaecati vel.</p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem aperiam obcaecati vel.</p>
                     </div>
                 </div>

@@ -4,11 +4,11 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Patrocinadores = (props) => {
   return (
-    <div className="g-1 mt-5">
+    <div className="container-lg mt-5 container-fluid">
 
 
     <Container id="patrocinadores" className="flex">
-      <div className="pb-80 mg-6 col-6 bg-white-400">
+      <div className="pb-80 col-5 bg-white-400">
         <h4 className={`
       pt-20
       
@@ -39,12 +39,12 @@ const Patrocinadores = (props) => {
           </Col>
         </Row>
       </div>
-      <div className="col-6 bg-blue-400 text-white">
-        <h4 className={` pt-20 text-end
+      <div className="col-7 bg-blue-400 text-white container">
+        <h4 className={` pt-20 text-end mr-5
       `}>Agradecimentos</h4>
 
         <Row xs="1" sm="3" md="1">
-          <Col className={`justify-center`}>
+          <Col className={`justify-center mr-5 mt-3 ml-5`}>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem</p>

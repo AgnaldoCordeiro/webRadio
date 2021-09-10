@@ -7,6 +7,10 @@
   align-items: center;
   height: 100vh;
 }
+a:hover {
+  color: #3dd705
+  
+}
 
 .main {
   padding: 5rem 0;

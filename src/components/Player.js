@@ -1,5 +1,4 @@
 import ReactAudioPlayer from 'react-audio-player';
-import frameborder from 'react'
 //
 
 
@@ -10,7 +9,7 @@ export default function Player() {
 
 src="https://player-ssl.kshost.com.br:12462/live"
 type="audio/mpeg"
-autoPlay="true"
+autoPlay="True"
 controls
 
 />

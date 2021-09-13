@@ -24,6 +24,8 @@ const Headers = (props) => {
           <li><a href="#equipe" className="nav-link px-2 text-light">Equipe</a></li>
           <li><a href="#patrocinadores" className="nav-link px-2 text-light">Patrocinadores</a></li>
           <li><a href="#contact" className="nav-link px-2 text-light">Contato</a></li>
+          <li><a href="/noticias" className="nav-link px-2 text-light">Noticias</a></li>
+         
         </ul>
         
         <Player/>

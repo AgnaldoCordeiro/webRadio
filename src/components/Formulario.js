@@ -5,20 +5,20 @@ export default function Formulario() {
 
         <form className="row g-4">
             <div className="col-6">
-                <label htmlFor="inputNome" className="form-label">Nome</label>
-                <input type="text" className="form-control" id="inputNome" />
+                <label htmlFor="name" className="form-label">Nome</label>
+                <input type="text" className="form-control" id="name" />
             </div>
             <div className="col">
                 <label htmlFor="inputTelefone" className="form-label">Telefone</label>
                 <input type="tel" className="form-control" id="inputTelefone" />
             </div>
             <div className="col-md-12">
-                <label htmlFor="inputEmail4" className="form-label">Email</label>
-                <input type="email" className="form-control" id="inputEmail4" />
+                <label htmlFor="email" className="form-label">Email</label>
+                <input type="email" className="form-control" id="email" />
             </div>
             <div className="mb-3">
-                <label htmlFor="mensagemFormControlTextarea1" className="form-label">Mensagem</label>
-                <textarea className="form-control" id="mensagemFormControlTextarea1" rows="3"></textarea>
+                <label htmlFor="mensagem" className="form-label">Mensagem</label>
+                <textarea className="form-control" id="mensagem" rows="3"></textarea>
             </div>
 
             <div className="col-12">

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Player from './Player'
+import Link from 'next/link'
 
 
 const Headers = (props) => {
@@ -24,7 +25,9 @@ const Headers = (props) => {
           <li><a href="#equipe" className="nav-link px-2 text-light">Equipe</a></li>
           <li><a href="#patrocinadores" className="nav-link px-2 text-light">Patrocinadores</a></li>
           <li><a href="#contact" className="nav-link px-2 text-light">Contato</a></li>
-          <li><a href="/noticias" className="nav-link px-2 text-light">Noticias</a></li>
+          <Link href="/noticias">
+          <li><a className="nav-link px-2 text-light">Noticias</a></li>
+          </Link>
          
         </ul>
         

@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/Footer'
 
 
+
 export default function Noticias() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);

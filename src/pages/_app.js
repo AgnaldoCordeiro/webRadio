@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import 'tailwindcss/tailwind.css'
-import '../styles/paginaInicial.css'
 
 
 function MyApp({ Component, pageProps }) {

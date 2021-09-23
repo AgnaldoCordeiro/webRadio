@@ -1,22 +1,89 @@
 html,
-body {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+
+  /* componente header */
+  .hd-content{
+    display:flex;
+    align-items: center;
+    background-color: rgba(96, 165, 250);
+    overflow: hidden;
+    padding: 5px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;   
+}
+.hd-content-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hd-logo{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.hd-ul{
+  display: flex;
+  color: red;
+  justify-items: start;
+  padding: .5rem;
+}
+.hd-li-a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 2rem; 
 }
 
-a {
-  color: primary;
-  text-decoration: none;
-}
-a:hover {
-  color: #3dd705
+.hd-li-a:hover{
+  color: rgb(48, 5, 236);
+  background-color: #ddd;
   
 }
 
-
-
-* {
-  box-sizing: border-box;
+.hd-logo-a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  margin-right: 20rem; 
+  border-radius: 2rem; 
 }
+.hd-logo-a:hover{
+  color: rgb(48, 5, 236); 
+  background-color: #ddd;
+}
+.hd-play{
+  width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/* imagem incio*/
+
+
+.img-size{
+  padding-top: 2rem;
+  width: 100%;
+  height: 100%;
+}
+
+ /* componente quemsomos */
+

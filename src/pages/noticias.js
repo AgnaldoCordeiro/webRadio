@@ -15,6 +15,7 @@ export default function Noticias() {
   // este useEffect será executado uma vez
   // semelhante ao componentDidMount()
   const url = 'https://newsapi.org/v2/top-headlines?sources=google-news-br&apiKey=de3e556815064e36b659f605189029d9';
+  
 
   const req = new Request(url);
 

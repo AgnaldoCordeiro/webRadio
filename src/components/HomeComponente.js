@@ -6,7 +6,7 @@ export default function HomeComponente(){
 
           <div className="parallax">
             
-              <img id="home" className="img-thumbnail" src="./radioweb.png"
+              <img id="home" className="img-size" src="./radioweb.png"
               alt="Sua Radio Web"               
              />
               </div>

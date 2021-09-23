@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Headers from '../components/Headers'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/Footer'

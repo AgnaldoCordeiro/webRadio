@@ -3,6 +3,7 @@ import Player from './Player'
 import Link from 'next/link'
 
 
+
 const Headers = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -37,6 +38,7 @@ const Headers = (props) => {
         
       </div>
     </div>
+        
   </header>
     </div>
   );

@@ -1,23 +1,13 @@
 
 
-export default function HomeComponente(){
-    return(
-        <div className="parallax-container">
-
-          <div className="parallax">
-            
-              <img id="home" className="img-size" src="./radioweb.png"
-              alt="Sua Radio Web"               
-             />
-              </div>
-
-          <div className="title-parallax">
-
-            <h1></h1>
-            <h1></h1>
-
-          </div>
-
-        </div>
-    )
+export default function HomeComponente() {
+  return (
+    <div>
+      <div>
+        <img id="home" className="img-size" src="./radioweb.png"
+          alt="Sua Radio Web"
+        />
+      </div>
+    </div>
+  )
 }

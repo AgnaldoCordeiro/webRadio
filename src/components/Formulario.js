@@ -22,7 +22,7 @@ export default function Formulario() {
             </div>
 
             <div className="col-12">
-                <button type="submit" className="btn btn-primary">Sign in</button>
+                <button type="submit" className="btn btn-primary">Enviar</button>
             </div>
         </form>
     )

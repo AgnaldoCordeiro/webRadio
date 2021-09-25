@@ -2,29 +2,28 @@ import Image from 'next/image'
 
 export default function Quemsomos() {
     return (
+        
 
 
-        <div className="container-fluid mt-10 mb-20" id="quemsomos">
-            <div className="container">
+        <div className="container-fluid bg-gray-200 text-black py-20" id="quemsomos">
+            <div  className="container">
                 <div className="row">
                     <div className="col s12 m12 l5 center
                     py-5
-                    px-2
-                                                       
+                    px-6                                     
                     ">
-                        <img className="img-thumbnail" src="http://www.webradiopraise.com.br/admin/data/img/gallery/Bg/fundo-gradiente-de-tecnologia-big-data_76243-32.jpg" alt="fundoweb"/>
+                        <img className="img-thumbnail" src="./music-producer-4335953_1920.jpg" alt="fundo2web"/>
                     </div>
                     <div className="col s12 m12 l7
-                    
                     py-5
-                    px-2 
-                    
+                    px-9                                        
                     ">
-                        <h4>Quem somos</h4>
-                        <p><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem aperiam obcaecati vel..</i></p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem aperiam obcaecati vel..</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem aperiam obcaecati vel.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium praesentium sint id! Soluta beatae doloremque quos repudiandae eos eaque libero tempore corrupti mollitia. Amet possimus quidem aperiam obcaecati vel.</p>
+                        <h4 className="pb-3">Quem somos</h4>
+                        <p>A RÁDIO MCR WEB tem como objetivo resgatar as músicas que marcaram várias gerações, pois as outras emissoras não lembram de tocar.</p> 
+                        <p> Aqui estão as verdadeiras músicas, onde se faziam músicas com qualidade, e muitos intérpretes destas músicas estão sendo esquecidos.</p>
+                        <p>A RÁDIO MCR WEB faz sua parte que é a levar ao ouvinte as verdadeiras músicas da MPB e internacionais para que não sejam esquecidas.</p>
+                        <p>Aguarde em breve nova programação, então continue na melhor qualidade musical com um toque de muita saudade</p>
+                        <p> Baixe o nosso App na play store são vários opção de aplicativos onde você encontra a Rádio MCR WEB CABEDELO PB</p>
                     </div>
                 </div>
             </div>

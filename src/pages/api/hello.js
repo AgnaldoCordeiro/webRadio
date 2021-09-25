@@ -1,3 +1,17 @@
+// cahve api noticias 0b46b06b7f26328e60e94c8870b8e8be
+// documentação da api https://mediastack.com/documentation
+//https://mediastack.com/sources/brazil-news-api
+// Dados de notícias ao vivo http : //api.mediastack.com/v1/ news ? access_key = YOUR_ACCESS_KEY
+
+
+      
+    
+// parâmetros opcionais: 
+
+//& sources = cnn , bbc & categories = business , sports & countries = us , au & languages = en , - de & keywords = virus , - corona & sort = publicado_desc & offset = 0 & limit = 100  
+      
+      
+
 
 /* 
 

@@ -20,12 +20,12 @@ const Headers = (props) => {
         </a>
 
         <ul className="hd-ul">
-          <li><a href="#home" className="hd-logo-a">Radio MCR Web</a></li>
-          <li><a href="#quemsomos" className="hd-li-a">Quem Somos</a></li>
-          <li><a href="#comosomos" className="hd-li-a">Como Somos</a></li>
-          <li><a href="#equipe" className="hd-li-a">Equipe</a></li>
-          <li><a href="#patrocinadores" className="hd-li-a">Patrocinadores</a></li>
-          <li><a href="#contact" className="hd-li-a">Contato</a></li>
+          <li><a href="/.#home" className="hd-logo-a">Radio MCR Web</a></li>
+          <li><a href="/.#quemsomos" className="hd-li-a">Quem Somos</a></li>
+          <li><a href="/.#comosomos" className="hd-li-a">Como Somos</a></li>
+          <li><a href="/.#equipe" className="hd-li-a">Equipe</a></li>
+          <li><a href="/.#patrocinadores" className="hd-li-a">Patrocinadores</a></li>
+          <li><a href="/.#contact" className="hd-li-a">Contato</a></li>
           <Link href="/noticias">
           <li><a className="hd-li-a">Noticias</a></li>
           </Link>

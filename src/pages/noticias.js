@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Headers from '../components/Headers'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 
 
@@ -14,18 +15,32 @@ export default function Noticias() {
   // Nota: O array [] deps vazio significa
   // este useEffect será executado uma vez
   // semelhante ao componentDidMount()
-  const url = 'https://newsapi.org/v2/top-headlines?sources=google-news-br&apiKey=de3e556815064e36b659f605189029d9';
+
   
+  
+
+  const url = "https://bing-news-search1.p.rapidapi.com/news?count=20&cc=Ultimas%20Noticias&setLang=pt&safeSearch=Off&textFormat=Raw"
+
+
 
   const req = new Request(url);
 
   useEffect(() => {
-    fetch(req)
+    fetch(req, {
+	"method": "GET",
+	"headers": {
+		"accept-language": "br",
+		"x-bingapis-sdk": "true",
+		"x-search-location": "br",
+		"x-rapidapi-host": "bing-news-search1.p.rapidapi.com",
+		"x-rapidapi-key": "e9970d4199msh61cd785b8750db9p1d9d1djsnca008e95cb75"
+	}
+})     
       .then(res => res.json())
       .then(
         (result) => {
           setIsLoaded(true);
-          setItems(result.articles);
+          setItems(result.value);
         },
         // Nota: é importante lidar com errros aqui
         // em vez de um bloco catch() para não receber
@@ -53,19 +68,29 @@ export default function Noticias() {
         </Head>
         <Headers />
 
-        <div  className="container">
+        <div className="container-fluid"> 
+
+        
+
+        <div  className="container-noticia">
+        <h1 className="text-center pb-5"> Ultimas Noticias</h1>
           {items.map(item => (
-            <div key={item.id}>
+            <div key={item.id} className="div-noticia">
               <header>
-                <h1>{item.title}</h1>
-                <h4>{item.description}</h4>
-                <h5>{item.publishedAt}</h5>
+                <a className="a-titulo" href={item.url} target="_blank" rel="noreferrer"><h3>{item.name}</h3></a>                              
+                <p className="data-public">{item.datePublished}</p>
               </header>
-              <main>
-                <img src={item.urlToImage} />
-                <p>{item.content}</p>
-                <p>Confira a materia completa <a>{item.url}</a></p>
-              </main>
+              <div className="row g-2">
+              <div className="col-sm-3">
+                <img className="img-noticia" src={item.image.thumbnail.contentUrl} />
+              </div>
+
+              <div className="col m-0"> 
+                <p className="p-description">{item.description}</p>
+              </div>
+
+              </div>
+             
             </div>
           ))}
 
@@ -73,6 +98,8 @@ export default function Noticias() {
         <Footer/>
 
       </div>
+        </div>
+
     );
   }
 }

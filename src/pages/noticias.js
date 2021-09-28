@@ -19,7 +19,7 @@ export default function Noticias() {
   
   
 
-  const url = "https://bing-news-search1.p.rapidapi.com/news?count=20&cc=Ultimas%20Noticias&setLang=pt&safeSearch=Off&textFormat=Raw"
+  const url = "https://bing-news-search1.p.rapidapi.com/news?count=10&cc=Ultimas%20Noticias&setLang=pt&safeSearch=Off&textFormat=Raw"
 
 
 

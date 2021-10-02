@@ -19,7 +19,7 @@ export default function Noticias() {
   
   
 
-  const url = "https://bing-news-search1.p.rapidapi.com/news?count=10&cc=Ultimas%20Noticias&setLang=pt&safeSearch=Off&textFormat=Raw"
+  const url = "https://bing-news-search1.p.rapidapi.com/news?count=20&setLang=pt&safeSearch=Off&textFormat=Raw"
 
 
 
@@ -29,7 +29,7 @@ export default function Noticias() {
     fetch(req, {
 	"method": "GET",
 	"headers": {
-		"accept-language": "br",
+		"accept-language": "pt-br",
 		"x-bingapis-sdk": "true",
 		"x-search-location": "br",
 		"x-rapidapi-host": "bing-news-search1.p.rapidapi.com",
